@@ -22,9 +22,12 @@
     
     <build>
     
-    
+   
         <finalName>AutoTest</finalName>
         <plugins>
+        
+         <!--  
+        
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -62,6 +65,8 @@
                     </execution>
                 </executions>
             </plugin>
+            
+            -->
             
             
             <plugin>
@@ -117,6 +122,9 @@
                         </transformationSet>
                     </transformationSets>
                 </configuration>
+                
+                
+                <!--  
                 <dependencies>
                 
                     <dependency>
@@ -124,9 +132,12 @@
                         <artifactId>saxon</artifactId>
                         <version>8.7</version>
                     </dependency>
-                    
-                    
+                         
                 </dependencies>
+                
+                -->
+                
+                
             </plugin>
         </plugins>
     </build>
