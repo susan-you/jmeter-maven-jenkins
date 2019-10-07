@@ -2,19 +2,15 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>cn.ds</groupId>
   <artifactId>jmeter</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-   
+  <version>0.0.1-SNAPSHOT</version>  
    <properties>
         <jmeter.result.jtl.dir>${project.build.directory}\jmeter\results</jmeter.result.jtl.dir>
-        <jmeter.result.html.dir>${project.build.directory}\jmeter\html</jmeter.result.html.dir>
-       
+        <jmeter.result.html.dir>${project.build.directory}\jmeter\html</jmeter.result.html.dir>   
     </properties>
     
-
-    <build>
-    
+    <build>  
         <plugins>   
-           <plugin>
+          <!--   <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
                 <version>3.0.2</version>
@@ -31,7 +27,7 @@
                     <outputDirectory>${project.build.directory}/jmeter/lib</outputDirectory>
                 </configuration>
             </plugin>
-            
+            -->
             
             <plugin>
                 <groupId>com.lazerycode.jmeter</groupId>
