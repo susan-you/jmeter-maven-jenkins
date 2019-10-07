@@ -123,7 +123,7 @@
                     </transformationSets>
                 </configuration>
                 
-                
+                <!--
              
                 <dependencies>
                 
@@ -135,7 +135,7 @@
                          
                 </dependencies>
                 
-                   <!--  -->
+                     -->
                 
                 
             </plugin>
