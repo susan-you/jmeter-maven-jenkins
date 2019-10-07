@@ -27,6 +27,7 @@
                     <outputDirectory>${project.build.directory}/jmeter/lib</outputDirectory>
                 </configuration>
             </plugin>
+           
             -->
             
             <plugin>
