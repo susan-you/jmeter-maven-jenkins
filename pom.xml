@@ -10,20 +10,20 @@
         <jmeter.result.jtl.dir>${project.build.directory}\jmeter\results</jmeter.result.jtl.dir>
         <jmeter.result.html.dir>${project.build.directory}\jmeter\html</jmeter.result.html.dir>
        
-        
+        <!--  
         <jmeter.result.resource.dir>${project.build.directory}\jmeter\html1</jmeter.result.resource.dir>
         <jmeter.result.html2.dir>${project.build.directory}\jmeter\html2</jmeter.result.html2.dir> 
         
         
-        <ReportName>TestReport</ReportName>
+        <ReportName>TestReport</ReportName>-->
     </properties>
     
 
     
     <build>
     
-   
-        <finalName>AutoTest</finalName>
+   <!--  
+        <finalName>AutoTest</finalName>-->
         <plugins>
         
           
@@ -124,7 +124,7 @@
                 </configuration>
                 
                 
-                
+                <!-- 
                 <dependencies>
                 
                     <dependency>
@@ -135,7 +135,7 @@
                          
                 </dependencies>
                 
-                
+                 -->
                 
                 
             </plugin>
