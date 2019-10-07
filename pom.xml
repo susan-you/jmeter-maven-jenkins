@@ -90,6 +90,22 @@
                 </executions>
                 <configuration>
                     <transformationSets>
+                    
+                        <transformationSet>
+                            <dir>${jmeter.result.jtl.dir}</dir>
+                              <stylesheet>src/main/resources/jmeter-results-detail-report_21.xsl</stylesheet>  
+                           <!-- <stylesheet>src/main/resources/jmeter.results.shanhe.me.xsl</stylesheet>  -->
+                            <outputDir>${jmeter.result.html.dir}</outputDir>
+                            <fileMappers>
+                                <fileMapper
+                                        implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                                    <targetExtension>html</targetExtension>
+                                </fileMapper>
+                            </fileMappers>
+                        </transformationSet>
+                        
+                    
+                    
                         <transformationSet>
                             <dir>${jmeter.result.jtl.dir}</dir>
                           <!--    <stylesheet>src/main/resources/jmeter-results-detail-report_21.xsl</stylesheet>  -->
@@ -102,6 +118,9 @@
                                 </fileMapper>
                             </fileMappers>
                         </transformationSet>
+                        
+                        
+                        
                     </transformationSets>
                 </configuration>
                 
